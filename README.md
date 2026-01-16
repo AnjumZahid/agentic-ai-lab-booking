@@ -30,6 +30,9 @@ conda activate lab_ai
 
 3️⃣ Install dependencies
 
+*Create .env file and put: 
+GOOGLE_API_KEY = "Your Google API KEY"
+
 4️⃣ Start backend server (FastAPI) & crud_backend.py
 python server.py
 uvicorn backend.crud_backend:app --reload
@@ -179,3 +182,4 @@ Healthcare AI workflows
 Feel free to connect on LinkedIn or reach out on GitHub.
 
 ⭐ If you find this project useful, please consider starring the repo!
+
